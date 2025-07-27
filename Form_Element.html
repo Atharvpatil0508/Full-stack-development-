@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Form</title>
+  </head>
+  <body>
+    <a href="NextPage.html">Back page</a>
+    <br />
+    <form>
+      <fieldset>
+        <legend>Student Form</legend>
+        <h3>Contact Information</h3>
+        <div>
+          <section>
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            id="name"
+            placeholder="Enter the Name"
+            required
+            name="name"
+          />
+        </section>
+        <br />
+        <section>
+          <label for="Surname">Surname:</label>
+          <input
+            type="text"
+            id="surname"
+            required
+            placeholder="Enter your Surname"
+            name="surname"
+          />
+        </section>
+        <br />
+        <section>
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            required
+            placeholder="abc@gmail.com"
+            name="email"
+          />
+        </section>
+        <br />
+        <section>
+        </div>
+        <h4>Select the Language</h4>
+        <div>
+          <section>
+            
+              <input type="checkbox" id="English" name="language" value="English">
+            <label for="en">English</label>
+          
+          </section>
+          <input type="checkbox" id="Hindi" name="language" value="Hindi">
+          <label for="hi">Hindi</label>
+          <section>
+             <input type="checkbox" id="marathi" name="language" value="language">
+            <label for="ma">Marathi</label>
+           
+          </section>
+          <section>
+            <label for="sp">Spanish</label>
+            <input type="checkbox" id="spanish" name="language" value="language">
+          </section>
+        </div>
+        <h4>Select the Gender</h4>
+        <div>
+          <section>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male">
+          </section>
+          <section>
+            <label for="female">female</label>
+            <input type="radio" id="female" name="gender" value="female">
+          </section>
+          <section>
+            <label for="others">Others</label>
+            <input type="radio" id="others" name="gender" value="others">
+          </section>
+        </div>
+        <br>
+        <div>
+          <label for="file">Select the File</label>
+          <input type="file" id="file" name="file">
+        </div>
+        <h4>Select the Country</h4>
+        <div>
+          <label for="country">Select the Country</label>
+          <select name="Country" id="country">
+            <option value=""selected disabled>Countries</option>
+            <option value="USA">America</option>
+          <option value="IND">India</option>
+          <option value="SK">South korea</option>
+          </select>
+        </div>
+        <br>
+          <button>Submit</button>
+        </section>
+      </fieldset> 
+    </form>
+  </body>
+</html>
