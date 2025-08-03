@@ -1,0 +1,124 @@
+
+h2,
+h3,
+p,
+{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header {
+  color:#1098ac;
+  font-size: 30px;
+
+    "Lucida Sans", Arial, sans-serif;
+  font-style: italic;
+}
+h2 {
+  font-size: 50px;
+  color: chocolate;
+  
+  font-style: calc();
+  font-weight: 7000;
+  font-variant: small-caps;
+}
+.header{
+  color: rgba(255, 2, 2, 0.5);
+  font-size: 40px;
+  
+  font-style: italic;
+  font-weight: 500;
+  background-color: rgb(157, 240, 213);
+}
+/*p {
+  color: chartreuse;
+  line-height: 1.2;
+}*/
+h4 {
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 35px;
+  
+    "Lucida Sans", Arial, sans-serif;
+  font-style: italic;
+}
+li {
+  font-size: 15px;
+  
+  color: black;
+}
+#test{
+  color: darkcyan;
+  font-size: 15px;
+}
+
+
+#Copyright {
+  color: darkorange;
+  font-style: italic;
+  font-size: 25px;
+}
+#html {
+  color: aquamarine;
+  font-size: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+}
+/*.header {
+  color: burlywood;
+  font-size: 30px;
+  font-style: italic;
+}*/
+.second-h4{
+  color: black;
+  font-size: 10px;
+  font-style: italic;
+}
+#header{
+  color: black;
+}
+.header-class{
+  color: darkgoldenrod;
+}
+.main-header{
+  color: red;
+  background-color: rgb(205, 237, 237);
+  border-bottom: 3px solid gray;
+}
+.footer{
+  border-top: 3px solid black;
+  border-bottom: 3px dotted gray;
+}
+body{
+  background-color: rgb(247, 244, 239);
+}
+
+/*children's pseudo-classes*/
+
+li:first-child{
+  color: red;
+}
+li:last-child{
+  background-color:brown;
+}
+li:nth-child(even){
+  font-weight: bold;
+  color:chocolate ;
+}
+/*link or Status or Hyperink pseudo-classes*/
+
+a:link {
+  color: red;
+  text-decoration:underline wavy;
+}
+a:visited{
+  color:darkturquoise;
+}
+a:hover{
+  color: black;
+  text-decoration: underline wavy red;
+}
+a:active{
+  background-color:greenyellow;
+  color: darkred;
+} 
